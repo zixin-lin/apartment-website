@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns="http://java.sun.com/xml/ns/javaee"
+           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+           xsi:schemaLocation="http://java.sun.com/xml/ns/javaee
+		  http://java.sun.com/xml/ns/javaee/web-app_4_0.xsd"
+           version="4.0">
+
+    <servlet>
+        <servlet-name>userActionServlet</servlet-name>
+        <servlet-class>servlets.userActionServlet</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>userActionServlet</servlet-name>
+        <url-pattern>/userActionServlet</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>maintananceServlet</servlet-name>
+        <servlet-class>servlets.maintananceServlet</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>maintananceServlet</servlet-name>
+        <url-pattern>/maintananceServlet</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>feedbackServlet</servlet-name>
+        <servlet-class>servlets.feedbackServlet</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>feedbackServlet</servlet-name>
+        <url-pattern>/feedbackServlet</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>RegisterServlet</servlet-name>
+        <servlet-class>servlets.RegisterServlet</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>RegisterServlet</servlet-name>
+        <url-pattern>/RegisterServlet</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>LoginServlet</servlet-name>
+        <servlet-class>servlets.LoginServlet</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>LoginServlet</servlet-name>
+        <url-pattern>/LoginServlet</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>managerActionServlet</servlet-name>
+        <servlet-class>servlets.managerActionServlet</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>managerActionServlet</servlet-name>
+        <url-pattern>/managerActionServlet</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>LogoutServlet</servlet-name>
+        <servlet-class>servlets.LogoutServlet</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>LogoutServlet</servlet-name>
+        <url-pattern>/LogoutServlet</url-pattern>
+    </servlet-mapping>
+
+</web-app>
